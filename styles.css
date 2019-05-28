@@ -1,0 +1,60 @@
+<style>
+body
+ { background:gray;
+color:white;
+margin: 0px;
+
+}
+
+header
+{background:black;
+padding:40px;
+color:black;
+
+background-image:url("w.jpg");
+}
+
+section
+{background:black;
+color:rgb(238, 45, 45);
+    padding:30px 30px 40px 0px;
+    
+    }
+    section.feature-box.content{padding: 20px 0px 370px 0px;
+    background-image: url("oneplus.jpg");
+color:azure;
+}
+  
+footer
+{background:black;
+padding:100px;
+}
+
+div
+{display:inline-block;
+    margin:0px 20px 20px 20px ;
+    font-family: 'Courier New', Courier, monospace;
+     font-size:20px;}
+ 
+ul
+{list-style-type:none;
+}
+li
+{display:inline-block;
+margin:0px 30px 10px 60px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+
+}
+li:hover{
+    background-color:azure;
+  
+}
+div:hover{
+    color: azure;
+
+}
+
+footer{text-align: center;}
+    </style>
