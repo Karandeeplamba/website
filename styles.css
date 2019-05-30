@@ -12,19 +12,24 @@ padding:40px;
 color:black;
 
 background-image:url("w.jpg");
-}
+ background-repeat: no-repeat;
+ background-size: 100%;}
 
 section
-{background:black;
+{
+    background-image:url("ap.jpeg");
+    background-repeat: no-repeat;
+ background-size: 100%;
 color:rgb(238, 45, 45);
     padding:30px 30px 40px 0px;
     
     }
     section.feature-box.content{padding: 20px 0px 370px 0px;
-    background-image: url("oneplus.jpg");
-color:azure;
+    color:azure;
 }
-  
+section.feature-box.text{background:black
+    ;background-size: 100%;
+    color:azure;}
 footer
 {background:black;
 padding:100px;
