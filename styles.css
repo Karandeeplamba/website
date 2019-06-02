@@ -1,39 +1,27 @@
 <style>
 body
  { background:gray;
-color:white;
+color:tomato;
 margin: 0px;
 
 }
 
-header
-{background:black;
-padding:40px;
-color:black;
-
-background-image:url("w.jpg");
- background-repeat: no-repeat;
- background-size: 100%;}
+header{}
 
 section
 {
-    background-image:url("ap.jpeg");
+    background-image:url("ax.jpeg");
     background-repeat: no-repeat;
- background-size: 100%;
-color:rgb(238, 45, 45);
+ 
+ background-position: center center;
+ background-attachment: fixed;
+ background-size: cover;
+color:black;
     padding:30px 30px 40px 0px;
     
     }
-    section.feature-box.content{padding: 20px 0px 370px 0px;
-    color:azure;
-}
-section.feature-box.text{background:black
-    ;background-size: 100%;
-    color:azure;}
-footer
-{background:black;
-padding:100px;
-}
+    
+
 
 div
 {display:inline-block;
@@ -53,13 +41,32 @@ font-size: 20px;
 
 }
 li:hover{
-    background-color:azure;
+    text-decoration-line: underline;
+
   
 }
 div:hover{
-    color: azure;
+    color: rgb(3, 3, 105);
 
 }
+img {
+    border-radius: 10px;
+    
+        border: 10px solid black;
+        
 
-footer{text-align: center;}
+  }
+  
+footer{text-align: center;
+    background: black;
+    padding:80px;
+color:yellow;}
+
+@media screen and (min-width:600px) {
+    .header{
+        background-size: height= "280px";
+    }
+
+  
+      
     </style>
