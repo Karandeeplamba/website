@@ -43,6 +43,7 @@ font-size: 20px;
 li:hover{
     text-decoration-line: underline;
 
+  .yup{color:blue;}
   
 }
 div:hover{
