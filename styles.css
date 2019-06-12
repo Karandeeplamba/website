@@ -63,10 +63,6 @@ footer{text-align: center;
     padding:80px;
 color:yellow;}
 
-@media screen and (min-width:600px) {
-    .header{
-        background-size: height= "280px";
-    }
 
   
       
